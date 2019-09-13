@@ -1406,8 +1406,8 @@ body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 14px;
     line-height: 1.42857143;
-    color: rgb(14, 14, 105);
-    background-color: rgb(14,14,105)
+    color: #282828;
+    background-color: #282828
 }
 
 button,
@@ -5333,7 +5333,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 .navbar-fixed-top {
     top: 0;
     border-width: 0 0 1px;
-    background-color: #1b049e
+    background-color: rgb(243, 203, 26)
 }
 
 .navbar-fixed-bottom {
@@ -5742,21 +5742,32 @@ fieldset[disabled] .navbar-default .btn-link:hover {
 }
 
 .navbar-inverse .navbar-text {
-    color:rgb(14, 199, 14)
+    color:#2fc1f1
 }
 
 .navbar-inverse .navbar-nav>li>a {
-    color: rgb(39, 145, 39)
+    color: #2fc1f1;
+    line-height: 18px; font-size: 16px; display: block; height: 20px;margin-bottom: 10px;margin-top: 8px;
+    width: 105px;
+    padding: 10px 10px 10px 10px;
+    
 }
 
 .navbar-inverse .navbar-nav>li>a:focus,
 .navbar-inverse .navbar-nav>li>a:hover {
-    color: rgb(24, 197, 24);
-    background-color: transparent
+    color: #2fc1f1;
+    background-color: transparent;
+    font-size: 20px;
+    display: block;
+    
 }
+img.fit{
+    width: 1920px;
+    height: 1080px;
+  }
 .dropbtn {
-    background-color: rgb(14, 14, 105);
-    color: rgb(39, 145, 39);
+    background-color: #282828;
+    color: #2fc1f1;
     padding: 13.5px;
     font-size: 16px;
     font-style: bold;
@@ -5773,7 +5784,7 @@ fieldset[disabled] .navbar-default .btn-link:hover {
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color: rgb(14, 14, 105);
+    background-color: #282828;
     min-width: 160px;
     font-style: bold;
     z-index: 1;
@@ -5781,21 +5792,22 @@ fieldset[disabled] .navbar-default .btn-link:hover {
   
   /* Links inside the dropdown */
   .dropdown-content a {
-    color: rgb(39, 145, 39);
+    color: #2fc1f1;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
     font-style: bold;
+    font-size: 14px
   }
   
   /* Change color of dropdown links on hover */
-  .dropdown-content a:hover {background-color: rgb(14, 14, 105);color:rgb(14, 199, 14)}
+  .dropdown-content a:hover {background-color: #282828;color:#2fc1f1;font-size:16px}
   
   /* Show the dropdown menu on hover */
-  .dropdown:hover .dropdown-content {display: block; color:rgb(14, 199, 14)}
+  .dropdown:hover .dropdown-content {display: block; color:#2fc1f1;font-size: 16px}
   
   /* Change the background color of the dropdown button when the dropdown content is shown */
-  .dropdown:hover .dropbtn {background-color:  rgb(19, 19, 83); color:rgb(14, 199, 14)}
+  .dropdown:hover .dropbtn {background-color:  #282828; color:#2fc1f1}
 
 .navbar-inverse .navbar-nav>.active>a,
 .navbar-inverse .navbar-nav>.active>a:focus,
@@ -5827,14 +5839,14 @@ fieldset[disabled] .navbar-default .btn-link:hover {
 .navbar-inverse .navbar-collapse,
 .navbar-inverse .navbar-form {
     border-color: rgb(14, 14, 105);
-    background-color: rgb(14, 14, 105)
+    background-color: #282828
 }
 
 .navbar-inverse .navbar-nav>.open>a,
 .navbar-inverse .navbar-nav>.open>a:focus,
 .navbar-inverse .navbar-nav>.open>a:hover {
     color: rgb(17, 199, 17);
-    background-color: #1b049e
+    background-color: #282828
 }
 
 @media (max-width:767px) {

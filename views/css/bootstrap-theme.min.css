@@ -398,10 +398,10 @@ fieldset[disabled] .btn-danger:hover {
 }
 
 .navbar-inverse {
-    background-image: -webkit-linear-gradient(top, rgb(14,14,105) 0, rgb(14,14,105) 100%);
-    background-image: -o-linear-gradient(top, rgb(14,14,105) 0, rgb(14,14,105) 100%);
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(14,14,105)), to(rgb(14,14,105)));
-    background-image: linear-gradient(to bottom, rgb(14,14,105) 0, rgb(14,14,105) 100%);
+    background-image: -webkit-linear-gradient(top, #282828 0, #282828 100%);
+    background-image: -o-linear-gradient(top, #282828 0, #282828 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#4c4c4c), to(#4c4c4c));
+    background-image: linear-gradient(to bottom, #282828 0, #282828 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff3c3c3c', endColorstr='#ff222222', GradientType=0);
     filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
     background-repeat: repeat-x;
